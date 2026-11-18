@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Plantilla Órbita · Quark Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="bar"></div>
+    <header>
+      <div class="wrap hd">
+        <a class="logo" href="#inicio" id="logo"></a>
+        <nav>
+          <a href="#servicios">Servicios</a
+          ><a href="#proceso">Cómo trabajamos</a
+          ><a href="#opiniones">Opiniones</a><a href="#faq">Preguntas</a>
+        </nav>
+        <a class="btn" href="#contacto" style="padding: 10px 20px">Reservar</a>
+      </div>
+    </header>
+    <main>
+      <section class="hero" id="inicio">
+        <div class="wrap hg">
+          <div>
+            <span class="pill" id="pill"></span>
+            <h1 id="h1"></h1>
+            <p class="lead" id="lead"></p>
+            <div class="cta">
+              <a class="btn" href="#contacto" id="b1"></a
+              ><a class="btn ghost" href="#servicios" id="b2"></a>
+            </div>
+          </div>
+          <div class="vis">
+            <div class="ringx"></div>
+            <div class="disc" id="disc"></div>
+            <div class="chip c1" id="c1"></div>
+            <div class="chip c2" id="c2"></div>
+          </div>
+        </div>
+      </section>
+      <section id="servicios">
+        <div class="wrap">
+          <h2 class="rv" id="st"></h2>
+          <p class="sub rv" id="ss"></p>
+          <div class="g3" id="svc"></div>
+        </div>
+      </section>
+      <section class="alt" id="proceso">
+        <div class="wrap">
+          <h2 class="rv">Así de fácil trabajamos</h2>
+          <div class="steps" id="steps"></div>
+        </div>
+      </section>
+      <section id="opiniones">
+        <div class="wrap">
+          <h2 class="rv">Lo que dicen nuestros clientes</h2>
+          <p class="sub rv">
+            Opiniones de ejemplo para mostrar cómo se vería esta sección.
+          </p>
+          <div class="g3" id="rev"></div>
+        </div>
+      </section>
+      <section class="alt" id="contacto">
+        <div class="wrap ctg">
+          <div class="rv">
+            <h2 id="ct"></h2>
+            <p class="sub" id="cs"></p>
+            <p class="sub" id="cd"></p>
+          </div>
+          <form id="f">
+            <label
+              >Tu nombre<input id="fn" required autocomplete="name" /></label
+            ><label>¿Qué te interesa?<select id="fs"></select></label
+            ><label>Mensaje (opcional)<textarea id="fm"></textarea></label
+            ><button class="btn" type="submit">Enviar por WhatsApp</button>
+          </form>
+        </div>
+      </section>
+      <section id="faq">
+        <div class="wrap">
+          <h2 class="rv">Preguntas frecuentes</h2>
+          <div style="margin-top: 26px" id="faqs"></div>
+        </div>
+      </section>
+    </main>
+    <footer><div class="wrap" id="ft"></div></footer>
+    <a class="wa" id="wa" aria-label="Escribir por WhatsApp" href="#contacto"
+      >💬</a
+    >
+    <script src="script.js"></script>
+  </body>
+</html>
